@@ -1,18 +1,30 @@
 import Image from 'next/image'
+import Logo from '../public/assets/blog/images/Logo.png'
+import Name from '../public/assets/blog/images/Name.png'
+import Slogan from '../public/assets/blog/images/Slogan.png'
+import Road from '../public/assets/blog/images/Road.png'
+import Grid from '@mui/material/Grid';
 
 const Intro = () => {
+  
+  //** <div style={{width: '1920px', height: '1000px', backgroundImage: 'url(/assets/blog/images/Banner2.png)', backgroundRepeat: 'no-repeat', clip:'rect(350px,1920px,952px,0px)', position:'absolute'}}/>  */
+  console.log(Name)
+  console.log(Slogan)
   return (
-    <>
-    <section className="flex-col md:flex-row flex items-center md:justify-between mt-16 mb-16 md:mb-12">
-      <h1 className="text-5xl md:text-8xl font-bold tracking-tighter leading-tight md:pr-8">
-        Road to Wealth
-      </h1>
-      <h4 className="text-center md:text-left text-lg mt-5 md:pl-8">
-        Finding a path through financial literacy
-      </h4>
+    <div style={{ background: '#16576a' }}>
+      <Grid container spacing={2}>
+      <Grid item xs={8}>
+          <Image src={Name.src} width={Name.width} height={Name.height} style={{ paddingLeft:'200px' }} />
+        </Grid>
+        <Grid item xs={4} style={{ alignContent: 'bottom'}}>
+        <Image src={Road.src} width={Road.width} height={Road.height} />
+        </Grid>
 
-    </section>
-    </>
+      <div style={{alignContent: 'center'}}>
+  <Image src={Slogan.src} width='732.66' height='45' style={{ paddingLeft:'250px' }} />
+      </div>
+      </Grid>
+    </div>
   )
 }
 

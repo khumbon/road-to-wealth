@@ -3,13 +3,13 @@ title: 'Employee Stock Purchase Plans'
 excerpt: 'You’re probably watching this video because your company has said you have an ESPP benefit or you’ve been badgered by emails saying it’s time to enrol, you’re offering period is coming to an end. 
 I’m here to demystify the ESPP and hopefully help you figure out if it’s best for you.
 So firstly, what is an Employee Stock Purchase Plan or ESPP?'
-coverImage: '/assets/blog/dynamic-routing/cover.jpg'
+coverImage: '/assets/blog/employee-stock-purchase-plans/espp-cover.png'
 date: '2020-03-16T05:35:07.322Z'
 author:
   name: Khumbo Nyirenda
   picture: '/assets/blog/authors/jj.jpeg'
 ogImage:
-  url: '/assets/blog/dynamic-routing/cover.jpg'
+  url: '/assets/blog/employee-stock-purchase-plans/espp-cover.png'
 ---
 
 Employee Stock Purchase Plans (ESPP) for Beginners. Should I start?
