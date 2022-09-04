@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import Name from '../public/assets/blog/images/Name.png';
-import Slogan from '../public/assets/blog/images/Slogan.png';
 import Road from '../public/assets/blog/images/Road.png';
 import Grid from '@mui/material/Grid';
 import * as React from 'react';
@@ -25,9 +24,7 @@ const Intro = () => {
 
         <div style={{ alignContent: 'center' }}>
           <Image
-            src={Slogan.src}
-            width="732.66"
-            height="45"
+            src="../public/assets/blog/images/Slogan.png"
             style={{ paddingLeft: '250px' }}
             alt="Slogan: A path through financial literacy"
           />
