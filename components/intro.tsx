@@ -1,5 +1,5 @@
-import Image from 'next/image';
 import Name from '../public/assets/blog/images/Name.png';
+import Slogan from '/public/assets/blog/images/Slogan.png';
 import Road from '../public/assets/blog/images/Road.png';
 import Grid from '@mui/material/Grid';
 import * as React from 'react';
@@ -10,7 +10,7 @@ const Intro = () => {
     <div style={{ background: '#16576a' }}>
       <Grid container spacing={2}>
         <Grid item xs={8}>
-          <Image
+          <img
             src={Name.src}
             width={Name.width}
             height={Name.height}
@@ -19,14 +19,16 @@ const Intro = () => {
           />
         </Grid>
         <Grid item xs={4} style={{ alignContent: 'bottom' }}>
-          <Image src={Road.src} width={Road.width} height={Road.height} alt="Picture of An Animated Road" />
+          <img src={Road.src} width={Road.width} height={Road.height} alt="Picture of An Animated Road" />
         </Grid>
 
         <div style={{ alignContent: 'center' }}>
-          <Image
-            src="../public/assets/blog/images/Slogan.png"
+          <img
+            src={Slogan.src}
             style={{ paddingLeft: '250px' }}
             alt="Slogan: A path through financial literacy"
+            width="732.66"
+            height="45"
           />
         </div>
       </Grid>
