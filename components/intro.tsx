@@ -1,8 +1,10 @@
+/* eslint-disable @next/next/no-img-element */
 import Name from '../public/assets/blog/images/Name.png';
 import Slogan from '/public/assets/blog/images/Slogan.png';
 import Road from '../public/assets/blog/images/Road.png';
 import Grid from '@mui/material/Grid';
 import * as React from 'react';
+import Image from 'next/image';
 
 const Intro = () => {
   //** <div style={{width: '1920px', height: '1000px', backgroundImage: 'url(/assets/blog/images/Banner2.png)', backgroundRepeat: 'no-repeat', clip:'rect(350px,1920px,952px,0px)', position:'absolute'}}/>  */
@@ -10,7 +12,7 @@ const Intro = () => {
     <div style={{ background: '#16576a' }}>
       <Grid container spacing={2}>
         <Grid item xs={8}>
-          <img
+          <Image
             src={Name.src}
             width={Name.width}
             height={Name.height}
