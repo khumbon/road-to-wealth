@@ -26,12 +26,12 @@ const ResponsiveAppBar = () => {
       <AppBar position="static" style={{ background: '#16576a' }}>
         <Toolbar disableGutters>
           <Grid container spacing={2} columns={32}>
-            <Grid item xs={21}>
+            <Grid item xs={20}>
               <Image src={Name.src} width="525.3px" height="80px" alt="Road to Wealth Logo" />
             </Grid>
-            <Grid item xs={8}>
+            <Grid item xs={9}>
               {pages.map((page) => (
-                <Button key={page} onClick={handleCloseNavMenu} sx={{ my: 2, color: 'white' }}>
+                <Button key={page} onClick={handleCloseNavMenu} sx={{ my: 2, color: 'white', paddingTop: '15px' }}>
                   {page}
                 </Button>
               ))}
