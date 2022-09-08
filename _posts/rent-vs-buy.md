@@ -1,11 +1,8 @@
 ---
 title: 'Rent vs Buy'
-excerpt: 'Buying a house id something everyone who is figuring out their finances thinks about at one point or another. A lot of the time with the voice of someone else telling you it’s the right thing to do. I mean renting is just paying your landlords mortgage or throwing money away or something like that. But is it really?'
+excerpt: 'Buying a house is something everyone who is figuring out their finances thinks about at one point or another. A lot of the time with the voice of someone else telling you it’s the right thing to do. I mean renting is just paying your landlords mortgage or throwing money away or something like that. But is it really?'
 coverImage: '/assets/blog/rent-vs-buy/rent-vs-buy-cover.png'
 date: '2020-03-16T05:35:07.322Z'
-author:
-  name: Khumbo Nyirenda
-  picture: '/assets/blog/authors/tim.jpeg'
 ogImage:
   url: '/assets/blog/rent-vs-buy/rent-vs-buy-cover.png'
 ---

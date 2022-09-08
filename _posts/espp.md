@@ -5,9 +5,6 @@ I’m here to demystify the ESPP and hopefully help you figure out if it’s bes
 So firstly, what is an Employee Stock Purchase Plan or ESPP?'
 coverImage: '/assets/blog/employee-stock-purchase-plans/espp-cover.png'
 date: '2020-03-16T05:35:07.322Z'
-author:
-  name: Khumbo Nyirenda
-  picture: '/assets/blog/authors/jj.jpeg'
 ogImage:
   url: '/assets/blog/employee-stock-purchase-plans/espp-cover.png'
 ---
@@ -82,9 +79,6 @@ title: 'Preview Mode for Static Generation'
 excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Praesent elementum facilisis leo vel fringilla est ullamcorper eget. At imperdiet dui accumsan sit amet nulla facilities morbi tempus.'
 coverImage: '/assets/blog/preview/cover.jpg'
 date: '2020-03-16T05:35:07.322Z'
-author:
-name: Joe Haddad
-picture: '/assets/blog/authors/joe.jpeg'
 ogImage:
 url: '/assets/blog/preview/cover.jpg'
 
