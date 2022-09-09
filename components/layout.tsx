@@ -1,4 +1,4 @@
-import Footer from './footer';
+import Footer from './Footer';
 import Meta from './meta';
 import * as React from 'react';
 import ResponsiveAppBar from './nav-bar';

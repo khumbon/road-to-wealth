@@ -16,7 +16,7 @@ interface PostProps {
   post: PostType;
   morePosts: PostType[];
   preview?: boolean;
-};
+}
 
 export default function Post({ post, morePosts, preview }: PostProps) {
   const router = useRouter();
