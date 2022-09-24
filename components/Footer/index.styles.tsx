@@ -1,5 +1,6 @@
 import styled from 'styled-components';
+import { colours } from '../../constants';
 
 export const StyledFooter = styled.footer`
-  background-color: '#16576a';
+  background-color: ${colours.brand};
 `;

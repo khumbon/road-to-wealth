@@ -5,11 +5,12 @@ import Road from '../public/assets/blog/images/Road.png';
 import Grid from '@mui/material/Grid';
 import * as React from 'react';
 import Image from 'next/image';
+import { colours } from '../constants';
 
 const Intro = () => {
   //** <div style={{width: '1920px', height: '1000px', backgroundImage: 'url(/assets/blog/images/Banner2.png)', backgroundRepeat: 'no-repeat', clip:'rect(350px,1920px,952px,0px)', position:'absolute'}}/>  */
   return (
-    <div style={{ background: '#16576a' }}>
+    <div style={{ background: colours.brand }}>
       <Grid container spacing={2}>
         <Grid item xs={8}>
           <Image

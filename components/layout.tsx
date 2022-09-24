@@ -1,7 +1,7 @@
 import Footer from './Footer';
 import Meta from './meta';
 import * as React from 'react';
-import ResponsiveAppBar from './nav-bar';
+import ResponsiveAppBar from './Navbar';
 
 type Props = {
   preview?: boolean;
