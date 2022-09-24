@@ -48,14 +48,14 @@ const ResponsiveAppBar = () => {
       <AppBar position="static" style={{ background: colours.brand }}>
         <Toolbar disableGutters>
           <Grid container spacing={2} columns={32}>
-            <Grid item xs={20} style={{ marginLeft: '30px' }}>
+            <Grid item xs={18} style={{ marginLeft: '30px' }}>
               <Link href="/">
                 <a>
                   <Image src={Name.src} width="525.3px" height="80px" alt="Road to Wealth Logo" />
                 </a>
               </Link>
             </Grid>
-            <Grid item xs={8}>
+            <Grid item xs={10}>
               {isMobile ? (
                 <div className="collapsedMenu">
                   <IconButton
