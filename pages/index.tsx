@@ -4,9 +4,9 @@ import Post from '../interfaces/post';
 import * as React from 'react';
 import { Container } from '@mui/material';
 
-type Props = {
+interface Props {
   allPosts: Post[];
-};
+}
 
 export default function Index({ allPosts }: Props) {
   const samplePosts = allPosts.slice(0, 2);
