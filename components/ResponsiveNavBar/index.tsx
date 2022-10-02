@@ -10,7 +10,7 @@ import { colours, screenSizes } from '../../constants';
 import { CollapsedMenu } from '../CollapsedMenu';
 import { ExpandedMenu } from '../ExpandedMenu';
 
-const pages = ['About', 'Downloads', 'Videos', 'Posts'];
+const pages = ['About', 'Downloads', 'Videos', 'Articles'];
 
 export const ResponsiveNavBar = () => {
   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
