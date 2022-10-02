@@ -4,8 +4,9 @@ import YouTubeIcon from '@mui/icons-material/YouTube';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import Link from 'next/link';
 import { StyledFooter } from './index.styles';
+import { Typography } from '@mui/material';
 
-const Footer = () => {
+export const Footer = () => {
   return (
     <StyledFooter className="bg-neutral-50 border-t border-neutral-200">
       <Container>
@@ -25,9 +26,14 @@ const Footer = () => {
             </Link>
           </div>
         </div>
+        <Typography variant="caption" display="block" gutterBottom color="white">
+          Disclaimer: I do not provide financial advice and I am not a qualified licensed financial advisor. All
+          information found here is for informational, entertainment or educational purposes only and should not be
+          construed as personal financial advice. While the information provided is believed to be accurate, it may
+          include errors or inaccuracies.
+        </Typography>
+        <br />
       </Container>
     </StyledFooter>
   );
 };
-
-export default Footer;

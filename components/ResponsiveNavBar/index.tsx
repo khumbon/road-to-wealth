@@ -12,7 +12,7 @@ import { ExpandedMenu } from '../ExpandedMenu';
 
 const pages = ['About', 'Downloads', 'Videos', 'Posts'];
 
-const ResponsiveAppBar = () => {
+export const ResponsiveNavBar = () => {
   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
   const handleClick = (event: React.MouseEvent<HTMLButtonElement>) => {
     setAnchorEl(event.currentTarget);
@@ -63,4 +63,3 @@ const ResponsiveAppBar = () => {
     </Box>
   );
 };
-export default ResponsiveAppBar;
