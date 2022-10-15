@@ -28,5 +28,14 @@ export const financialPlannerDownload: DownloadInfo = {
       'Use charts to see how your financial situation looks over time',
       'Print a single page summary of your finances',
     ],
+    'In this spreadsheet is:',
+    [
+      'an overview sheet for all your graphs',
+      'a tracker sheet to input your numbers',
+      'a net worth calculator sheet',
+      'an instructions sheet for extra help',
+    ],
+
+    'Knowing where your money going is the first step to achieving your financial goals. I have been using this spreadsheet for years and it has been the greatest tool to rid me of financial anxieties and replace them with control and confidence.',
   ],
 };

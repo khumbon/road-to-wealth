@@ -1,0 +1,1 @@
+- [] Hide download content with See more/See less button
