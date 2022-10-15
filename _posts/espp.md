@@ -18,7 +18,7 @@ So firstly, what is an Employee Stock Purchase Plan or ESPP?
 • Employees contribute through payroll deductions, over a period usually about 6 or 12 months which build until the purchase date.
 • The discount can be as much as 15% of the closing price of the shares.
 This means that in some cases you would be buying the shares at 85% of either the fair market value of the stock on your enrolment date or purchase date. Whichever is lower.
-https://www.investopedia.com/terms/e/espp.asp
+
 Typically used in American companies as an additional employee benefit.
 So just to begin we’ll need some quick definitions and important dates to remember:
 Offering or enrolment date – this is usually a deadline for opting into the program. This marks the beginning of the offering period.

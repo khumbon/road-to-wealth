@@ -14,7 +14,6 @@ Anecdotal and newspaper clippings
 2. In this video we’re going to weigh up renting and buying to help you decide whether buying a house is really the right choice for you.
    Santander First-Time Buyer Study
 3. In May 2019 Santander commissioned research surveying 5,002 UK adults aged 18-40 years who don’t own their own property. The largest study of potential first-time buyers of its kind.
-   https://www.santander.co.uk/assets/s3fs-public/documents/santander-first-time-buyer-study.pdf
    • British people notoriously love real estate
    • Especially with the recent elimination/reduction of stamp duty sending house prices through the roof. You might be forgiven/someone who wants to buy into this hot investment.
    • Reasons why people want to own a home
@@ -52,8 +51,7 @@ In order to bolster up the housing market the UK government intoruduced a stamp 
 
 \*\*Mention house equity and increase price at the end
 
-Reason for the video
-https://www.ons.gov.uk/peoplepopulationandcommunity/personalandhouseholdfinances/expenditure/bulletins/familyspendingintheuk/april2018tomarch2019
+Reason for this post
 Since I like looking at the data when making financial decisions, let look a bit deeper into these three points.
 What you might feel about buying
 Advantages

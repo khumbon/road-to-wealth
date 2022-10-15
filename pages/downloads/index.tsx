@@ -6,9 +6,9 @@ import { budgetDownload } from '../../copy/downloads';
 
 const Downloads = () => {
   return (
-    <Container sx={{ marginTop: 6 }}>
+    <Container sx={{ marginTop: 6, marginBottom: 6 }}>
       <Heading>Downloads</Heading>
-      <Download downloadInfo={budgetDownload} downloadContent="/assets/downloads/Budget.xlsx"/>
+      <Download downloadInfo={budgetDownload} downloadContent="/assets/downloads/Budget.xlsx" />
     </Container>
   );
 };
