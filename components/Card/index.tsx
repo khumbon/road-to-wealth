@@ -1,6 +1,5 @@
 import * as React from 'react';
 import styled from 'styled-components';
-import { colours } from '../../constants/colours';
 
 interface CardProps {
   backgroundColour: string;
@@ -19,12 +18,9 @@ const StyledCard = styled.div<CardProps>`
   overflow: hidden;
   background-color: ${({ backgroundColour, opacity }) => `${backgroundColour}${opacity}`}};
   opacity: ${({ opacity }) => opacity};
-  border: 1px solid  ${({ borderColour, opacity }) =>
-    borderColour ? `${borderColour}${opacity}` : colours.greyLight}};
+  border: 1px solid  ${({ borderColour, opacity }) => (borderColour ? `${borderColour}${opacity}` : 'grey')}};
   border-radius: ${({ borderRadius }) => (borderRadius ? borderRadius : 12)}px;
   box-shadow: 0 1px 0 0 light-grey;
 `;
 
-const Card = (props: CardProps) => <StyledCard {...props} className={props.classname} />;
-
-export default Card;
+export const Card = (props: CardProps) => <StyledCard {...props} className={props.classname} />;
