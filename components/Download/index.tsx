@@ -38,7 +38,7 @@ export const Download = ({ downloadInfo, downloadContent }: DownloadProps) => {
     <Card style={{ padding: '30px', marginBottom: '40px' }}>
       <Grid container>
         <Grid item xs={isMobile ? 12 : 5} style={{ padding: '10px' }}>
-          <a href={downloadContent} download="Budget.xlsx">
+          <a href={downloadContent} download={downloadInfo.type + 'xlsx'}>
             <img src={ComputerOnDeskBlankBudget.src} alt="Image of a budget" />
           </a>
         </Grid>
@@ -53,7 +53,7 @@ export const Download = ({ downloadInfo, downloadContent }: DownloadProps) => {
           </Typography>
           <ThemeProvider theme={theme}>
             <Grid width={isMobile ? '300px' : '350px'}>
-              <Button href="/assets/downloads/Budget.xlsx" variant="contained" color="primary" fullWidth>
+              <Button href={downloadContent} variant="contained" color="primary" fullWidth>
                 Download
               </Button>
             </Grid>

@@ -1,6 +1,7 @@
 import { DownloadInfo } from '../../types';
 
 export const budgetDownload: DownloadInfo = {
+  type: 'Budget',
   title: 'Annual Budget Spreadsheet',
   subtitle: 'Digital Financial Planner',
   paragraphs: [
@@ -12,6 +13,7 @@ export const budgetDownload: DownloadInfo = {
 };
 
 export const financialPlannerDownload: DownloadInfo = {
+  type: 'Financial Planner',
   title: 'Tracker, Budget and Net Worth Calculator',
   subtitle: 'All-in-One Digital Financial Planner',
   paragraphs: [
