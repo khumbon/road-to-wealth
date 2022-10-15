@@ -1,10 +1,10 @@
 import React from 'react';
 import { Heading } from '../../components';
-import { Typography } from '@mui/material';
+import { Container, Typography } from '@mui/material';
 
 const About = () => {
   return (
-    <div>
+    <Container sx={{ marginTop: 6 }}>
       <Heading>About</Heading>
       <Typography>
         Who am I? I’m Khumbo, a 24-year old, Malawian-South African living and working in the UK (it’s a mouthful). I
@@ -14,7 +14,7 @@ const About = () => {
         goal: taking you guys along with me through my financial journey. If you’d like to contact me, feel free to
         email me on roadtowealth7@gmail.com. Join Road to Wealth and stay tuned for more videos on financial literacy!{' '}
       </Typography>
-    </div>
+    </Container>
   );
 };
 
