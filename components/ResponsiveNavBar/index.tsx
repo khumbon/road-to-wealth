@@ -28,7 +28,7 @@ export const ResponsiveNavBar = () => {
       <AppBar position="static" style={{ background: colours.brand }}>
         <Toolbar disableGutters>
           <Grid container spacing={2} columns={32}>
-            <Grid item xs={18} style={{ marginLeft: '30px' }}>
+            <Grid item xs={18} style={{ marginLeft: '30px', marginTop: isMobile ? '10px' : '0px' }}>
               <Link href="/">
                 <a>
                   <Image src={Name.src} width="525.3px" height="80px" alt="Road to Wealth Logo" />
@@ -36,7 +36,7 @@ export const ResponsiveNavBar = () => {
               </Link>
             </Grid>
             {isMobile ? (
-              <Grid item xs={12}>
+              <Grid item xs={10}>
                 <Box display="flex" justifyContent="flex-end">
                   <CollapsedMenu
                     pages={pages}
