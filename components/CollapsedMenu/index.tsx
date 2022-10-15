@@ -4,6 +4,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import IconButton from '@mui/material/IconButton';
 import { withStyles } from '@material-ui/styles';
 import { colours } from '../../constants';
+import { useRouter } from 'next/router';
 
 interface CollapsedMenuProps {
   pages: string[];
@@ -14,6 +15,7 @@ interface CollapsedMenuProps {
 }
 export const CollapsedMenu = (props: CollapsedMenuProps) => {
   const { pages, open, anchorEl, handleClose, handleClick } = props;
+  const router = useRouter();
 
   const StyledMenu = withStyles({
     paper: {
@@ -31,6 +33,11 @@ export const CollapsedMenu = (props: CollapsedMenuProps) => {
       {...props}
     />
   ));
+
+  const routerClick = (event) => {
+    console.log(event);
+    router.push(`/${event.target.innerText.toLowerCase()}`);
+  };
 
   return (
     <div className="collapsedMenu">
@@ -50,7 +57,7 @@ export const CollapsedMenu = (props: CollapsedMenuProps) => {
       <StyledMenu>
         {pages.map((page) => (
           <MenuItem onClick={handleClose} key={page} sx={{ color: 'white', backgroundColor: colours.brand }}>
-            <Button href={page.toLowerCase()} sx={{ color: 'white' }}>
+            <Button onClick={routerClick} sx={{ color: 'white' }}>
               {page}
             </Button>
           </MenuItem>
