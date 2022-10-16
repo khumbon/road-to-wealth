@@ -26,13 +26,12 @@ export default function Index({ allPosts }: Props) {
     <>
       <Container sx={{ marginTop: 6 }}>{samplePosts.length > 0 ? <MoreStories posts={samplePosts} /> : null}</Container>
       <Container sx={{ marginTop: 6 }}>
-        {sampleVideoIds.length > 0 ? <YoutubeVideos videoIds={sampleVideoIds} /> : null}
-        <Button
-          href="https://www.youtube.com/channel/UCOEn7iKMc3ct5MRJMTM-vHQ"
-          sx={{ my: 2, color: 'white', paddingTop: '15px' }}
-        >
-          See more Videos
-        </Button>
+        {sampleVideoIds.length > 0 ? (
+          <>
+            <YoutubeVideos videoIds={sampleVideoIds} />
+            <Button href="https://www.youtube.com/channel/UCOEn7iKMc3ct5MRJMTM-vHQ">See more Videos</Button>
+          </>
+        ) : null}
       </Container>
     </>
   );
