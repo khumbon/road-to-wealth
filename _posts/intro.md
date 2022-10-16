@@ -2,7 +2,7 @@
 title: 'Intro to Road to Wealth'
 excerpt: 'My name is Khumbo and this is Road to Wealth, I started this channel so that I can keep track of my own journey to wealth while hopefully taking a few people along with me.'
 coverImage: '/assets/blog/intro/intro-cover.png'
-date: '2020-03-16T05:35:07.322Z'
+date: '2020-11-28T05:35:07.322Z'
 ogImage:
   url: '/assets/blog/intro/intro-cover.png'
 ---

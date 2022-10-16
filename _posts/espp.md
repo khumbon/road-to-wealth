@@ -4,7 +4,7 @@ excerpt: 'You’re probably watching this video because your company has said yo
 I’m here to demystify the ESPP and hopefully help you figure out if it’s best for you.
 So firstly, what is an Employee Stock Purchase Plan or ESPP?'
 coverImage: '/assets/blog/employee-stock-purchase-plans/espp-cover.png'
-date: '2020-03-16T05:35:07.322Z'
+date: '2021-04-10T05:35:07.322Z'
 ogImage:
   url: '/assets/blog/employee-stock-purchase-plans/espp-cover.png'
 ---

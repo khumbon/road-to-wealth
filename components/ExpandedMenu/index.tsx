@@ -11,7 +11,6 @@ export const ExpandedMenu = (props: ExpandedMenuProps) => {
   const router = useRouter();
 
   const routerClick = (event) => {
-    console.log(event);
     router.push(`/${event.target.innerText.toLowerCase()}`);
   };
 

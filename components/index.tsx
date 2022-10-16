@@ -7,3 +7,4 @@ export { YoutubeContent } from './YoutubeContent';
 export { Card } from './Card';
 export { Text } from './Text';
 export { Download } from './Download';
+export { YoutubeVideos } from './YoutubeVideos';
