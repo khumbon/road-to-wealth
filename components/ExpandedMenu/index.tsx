@@ -17,7 +17,7 @@ export const ExpandedMenu = (props: ExpandedMenuProps) => {
   return (
     <Grid container spacing={2} columns={32} sx={{ paddingTop: '10px', bottom: 0 }}>
       {pages.map((page) => (
-        <Grid item xs={8} key={page}>
+        <Grid item xs={8} key={page} width="75px">
           <Box display="flex" justifyContent="center">
             <Button key={page} onClick={routerClick} sx={{ my: 2, color: 'white', paddingTop: '15px' }}>
               {page}

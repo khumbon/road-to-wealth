@@ -3,7 +3,7 @@
 - [ ] Hide download content with See more/See less button
 - [ ] Mobile first by using is Desktop Variable
 - [x] Upgrade to NextJS 13
-- [ ] Add articles and about to Homepage
+- [ ] Add blog and about to Homepage
 - [ ] Playwright or Cypress integration tests
 - [ ] Jest unit tests
 - [ ] Image in about page
@@ -12,7 +12,7 @@
 ## Tech Stack
 
 - Tailwind CSS
-- NextJS
+- NextJS 13
 - Typescript
 - Markdown files as the data source
 - Deployed to the cloud with Vercel

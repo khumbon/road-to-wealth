@@ -22,7 +22,7 @@ Anecdotal and newspaper clippings
 
 5. And when they were asked why owning a home was a key life goal they said…
 
-Since I like looking at the data for my financial decisions, I’m going to address the middle three points. It’s not very easy to find a clear answer when looking at conflicting news articles so let’s take a look at the numbers.
+Since I like looking at the data for my financial decisions, I’m going to address the middle three points. It’s not very easy to find a clear answer when looking at conflicting news blog so let’s take a look at the numbers.
 
 First and foremost, things have changed. Here we have the median house price and the median gross salary of people in the UK. Both rising as between 1997 and 2020 but when we actually look at the ratio of the house prices to the earnings we can see that house prices have increased at a rate far greater than our salaries are. This is significant. When our repeated by our parents and peers that property is always a good investment. Things have changed. Houses were more affordable when your parents were buying their house compared to now, when you’re thinking about buying your house.
 

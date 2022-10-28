@@ -5,11 +5,11 @@ import Post from '../../interfaces/post';
 import * as React from 'react';
 import { Container } from '@mui/material';
 
-interface ArticlesProps {
+interface BlogProps {
   allPosts: Post[];
 }
 
-const Articles = ({ allPosts }: ArticlesProps) => {
+const Blog = ({ allPosts }: BlogProps) => {
   const heroPost = allPosts[0];
   const morePosts = allPosts.slice(1);
   return (
@@ -38,4 +38,4 @@ export const getStaticProps = async () => {
   };
 };
 
-export default Articles;
+export default Blog;

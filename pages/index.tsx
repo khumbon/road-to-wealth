@@ -5,7 +5,6 @@ import * as React from 'react';
 import { Container, Grid, useMediaQuery } from '@mui/material';
 import { videoIds } from '../copy/videos';
 import { YoutubeVideos } from '../components';
-
 import { Button } from '@mui/material';
 import { useRouter } from 'next/router';
 import { screenSizes } from '../constants';
@@ -27,11 +26,10 @@ export default function Index({ allPosts }: Props) {
   return (
     <>
       <Container sx={{ marginTop: 6 }}>{samplePosts.length > 0 ? <MoreStories posts={samplePosts} /> : null}</Container>
-      <Container sx={{ marginTop: 6 }}>
+      <Container sx={{ marginTop: 3, bgcolor: '#ffe743', paddingTop: 3, paddingBottom: 6 }}>
         {sampleVideoIds.length > 0 ? (
           <>
             <YoutubeVideos videoIds={sampleVideoIds} />
-
             <Grid width={!isDesktop ? '300px' : '350px'}>
               <Button
                 href="https://www.youtube.com/channel/UCOEn7iKMc3ct5MRJMTM-vHQ"
