@@ -1,9 +1,13 @@
 # Welcome to Road to Wealth!
 
-- [] Hide download content with See more/See less button
-- [] Mobile first by using is Desktop Variable
-- [] Upgrade to NextJS 13
-- [] Implement playwright integration test
+- [ ] Hide download content with See more/See less button
+- [ ] Mobile first by using is Desktop Variable
+- [x] Upgrade to NextJS 13
+- [ ] Add articles and about to Homepage
+- [ ] Playwright or Cypress integration tests
+- [ ] Jest unit tests
+- [ ] Image in about page
+- [ ] Use next/image with fixed width and height
 
 ## Tech Stack
 
@@ -16,3 +20,4 @@
 ## To Get Started
 
 Simply run `pnpm dev` and navigate to `http://localhost:3000`.
+View web page at roadtowealth7.com
