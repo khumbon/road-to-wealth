@@ -14,18 +14,9 @@ import {
 import { Text } from '../../components';
 import ComputerOnDeskBlankBudget from '../../public/assets/computer-on-desk-blank-budget.png';
 import Link from 'next/link';
-import { colours, screenSizes } from '../../constants';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
+import { screenSizes } from '../../constants';
 import { Check, Favorite } from '@mui/icons-material';
 import { DownloadInfo } from '../../types';
-
-const theme = createTheme({
-  palette: {
-    primary: {
-      main: colours.brand,
-    },
-  },
-});
 
 interface DownloadProps {
   downloadInfo: DownloadInfo;
@@ -44,25 +35,23 @@ export const Download = ({ downloadInfo, downloadContent }: DownloadProps) => {
         </Grid>
         <Grid item xs={isMobile ? 12 : 7} style={{ padding: '10px' }}>
           <Typography variant="h4">
-            <Link as={downloadContent} href={downloadContent}>
-              <a className="hover:underline">{downloadInfo.title}</a>
+            <Link as={downloadContent} href={downloadContent} className="hover:underline">
+              {downloadInfo.title}
             </Link>
           </Typography>
           <Typography variant="h5" style={{ paddingBottom: '40px' }}>
             {downloadInfo.subtitle}
           </Typography>
-          <ThemeProvider theme={theme}>
-            <Grid width={isMobile ? '300px' : '350px'}>
-              <Button href={downloadContent} variant="contained" color="primary" fullWidth>
-                Download
-              </Button>
-            </Grid>
-            <Grid width={isMobile ? '300px' : '350px'} style={{ paddingTop: '20px' }}>
-              <Button variant="outlined" color="primary" endIcon={<Favorite />} fullWidth>
-                Like
-              </Button>
-            </Grid>
-          </ThemeProvider>
+          <Grid width={isMobile ? '300px' : '350px'}>
+            <Button href={downloadContent} variant="contained" color="primary" fullWidth>
+              Download
+            </Button>
+          </Grid>
+          <Grid width={isMobile ? '300px' : '350px'} style={{ paddingTop: '20px' }}>
+            <Button variant="outlined" color="primary" endIcon={<Favorite />} fullWidth>
+              Like
+            </Button>
+          </Grid>
         </Grid>
       </Grid>
       <Grid style={{ paddingTop: '20px' }}>

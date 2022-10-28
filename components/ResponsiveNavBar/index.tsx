@@ -6,9 +6,10 @@ import Name from '../../public/assets/blog/images/Name.png';
 import Road from '../../public/assets/blog/images/Road.png';
 import { Grid, useMediaQuery, Box } from '@mui/material';
 import Link from 'next/link';
-import { colours, screenSizes } from '../../constants';
+import { screenSizes } from '../../constants';
 import { CollapsedMenu } from '../CollapsedMenu';
 import { ExpandedMenu } from '../ExpandedMenu';
+import { colours } from '../../constants/colours';
 
 const pages = ['About', 'Downloads', 'Videos', 'Articles'];
 
@@ -30,9 +31,7 @@ export const ResponsiveNavBar = () => {
           <Grid container spacing={2} columns={32}>
             <Grid item xs={18} style={{ margin: '10px 0px 10px 30px' }}>
               <Link href="/">
-                <a>
-                  <Image src={Name.src} width="525.3px" height="80px" alt="Road to Wealth Logo" />
-                </a>
+                <Image src={Name.src} width="525" height="80" alt="Road to Wealth Logo" />
               </Link>
             </Grid>
             {isMobile ? (
@@ -53,7 +52,7 @@ export const ResponsiveNavBar = () => {
                   <ExpandedMenu pages={pages} />
                 </Grid>
                 <Grid item xs={3}>
-                  <Image src={Road.src} width="90.7px" height="80px" alt="Picture of An Animated Road" />
+                  <Image src={Road.src} width="91" height="80" alt="Picture of An Animated Road" />
                 </Grid>
               </>
             )}

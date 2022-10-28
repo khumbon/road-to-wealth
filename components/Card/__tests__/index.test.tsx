@@ -1,12 +1,14 @@
 import * as React from 'react';
 import { render } from '@testing-library/react';
-import Card from '..';
+import { Card } from '..';
+import { axe, toHaveNoViolations } from 'jest-axe';
 import { colours } from '../../../constants/colours';
-import { axe } from 'jest-axe';
+
+expect.extend(toHaveNoViolations);
 
 describe('Card component', () => {
   const { container } = render(
-    <Card classname="testCard" backgroundColour={colours.grey}>
+    <Card classname="testCard" backgroundColour={colours.brand}>
       <div />
     </Card>,
   );

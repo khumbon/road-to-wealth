@@ -17,7 +17,7 @@ export const Footer = () => {
           >
             Join my Road To Wealth...
           </h3>
-          <div className="flex flex-col lg:flex-row justify-center items-center lg:pl-4 lg:w-1/2">
+          <div className="flex flex-row justify-center items-center lg:pl-4 lg:w-1/2">
             <Link href="https://www.youtube.com/channel/UCOEn7iKMc3ct5MRJMTM-vHQ/featured">
               <YouTubeIcon style={{ fontSize: '80px', color: 'white' }} />
             </Link>

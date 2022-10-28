@@ -10,10 +10,10 @@ const About = () => {
       <Heading>About</Heading>
       <Typography variant="h4">Who am I?</Typography>
       <Text align="center">
-        I’m Khumbo, a 24-year old, Malawian-South African living and working in the UK (it’s a mouthful). I work as a
-        Mechanical Engineer/Software Developer, but my real passion is all things personal finance and investing. I
-        started this channel to reach people who, like me, may not have grown up with a financial education but have
-        realised it’s essential to living life on your terms.
+        I’m Khumbo, a Malawian-South African living and working in the UK (it’s a mouthful). I work as a Mechanical
+        Engineer/Software Developer, but my real passion is all things personal finance and investing. I started this
+        channel to reach people who, like me, may not have grown up with a financial education but have realised it’s
+        essential to living life on your terms.
       </Text>
       <Text align="center">End goal: FINANCIAL EDUCATION FOR ALL!</Text>
       <Text align="center">Medium goal: taking you guys along with me through my financial journey.</Text>

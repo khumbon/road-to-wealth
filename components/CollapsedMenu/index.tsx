@@ -3,7 +3,7 @@ import { Button, Menu, MenuItem } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import IconButton from '@mui/material/IconButton';
 import { withStyles } from '@material-ui/styles';
-import { colours } from '../../constants';
+import { colours } from '../../constants/colours';
 import { useRouter } from 'next/router';
 
 interface CollapsedMenuProps {
@@ -35,7 +35,6 @@ export const CollapsedMenu = (props: CollapsedMenuProps) => {
   ));
 
   const routerClick = (event) => {
-    console.log(event);
     router.push(`/${event.target.innerText.toLowerCase()}`);
   };
 
