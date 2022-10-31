@@ -11,7 +11,7 @@ import { CollapsedMenu } from '../CollapsedMenu';
 import { ExpandedMenu } from '../ExpandedMenu';
 import { colours } from '../../constants/colours';
 
-const pages = ['About', 'Blog', 'Downloads', 'Videos'];
+const pages = ['About', 'Blog', 'Videos', 'Downloads'];
 
 export const ResponsiveNavBar = () => {
   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);

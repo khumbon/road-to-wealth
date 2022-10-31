@@ -3,12 +3,12 @@ import { Heading } from '../../components';
 import { Container, List, ListItem, ListItemIcon, Typography } from '@mui/material';
 import { Text } from '../../components';
 import { Email, Instagram, YouTube } from '@mui/icons-material';
+import Image from 'next/image';
 
 const About = () => {
   return (
-    <Container sx={{ marginTop: 6 }}>
-      <Heading>About</Heading>
-      <Typography variant="h4">Who am I?</Typography>
+    <Container sx={{ marginTop: 6, marginBottom: 6 }}>
+      <Heading>About me</Heading>
       <Text align="center">
         I’m Khumbo, a Malawian-South African living and working in the UK (it’s a mouthful). I work as a Mechanical
         Engineer/Software Developer, but my real passion is all things personal finance and investing. I started this
@@ -17,6 +17,19 @@ const About = () => {
       </Text>
       <Text align="center">End goal: FINANCIAL EDUCATION FOR ALL!</Text>
       <Text align="center">Medium goal: taking you guys along with me through my financial journey.</Text>
+      <div
+        style={{
+          display: 'flex',
+          justifyContent: 'center',
+        }}
+      >
+        <Image
+          src="/assets/about/khumbo-standing-at-wedding.jpg"
+          alt="Khumbo standing on grass smiling"
+          width={300}
+          height={400}
+        />
+      </div>
       <Text>Reach out to me:</Text>
       <List>
         <ListItem>
