@@ -17,7 +17,8 @@ import { Text } from '../../components';
 import ComputerOnDeskBlankBudget from '../../public/assets/computer-on-desk-blank-budget.png';
 import Link from 'next/link';
 import { screenSizes } from '../../constants';
-import { Check, Favorite } from '@mui/icons-material';
+import Check from '@mui/icons-material/Check';
+import Favorite from '@mui/icons-material/Favorite';
 import { DownloadInfo } from '../../types';
 import { colours } from '../../constants/colours';
 

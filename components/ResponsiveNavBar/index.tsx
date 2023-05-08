@@ -25,8 +25,8 @@ export const ResponsiveNavBar = () => {
 
   const isMobile = useMediaQuery(`(max-width: ${screenSizes.smallDesktop}px)`);
   return (
-    <Box sx={{ flexGrow: 1, background: colours.brand }}>
-      <AppBar position="static" style={{ background: colours.brand }}>
+    <Box sx={{ flexGrow: 1 }} className="bg-brand dark:bg-brand">
+      <AppBar position="static" className="bg-brand">
         <Toolbar disableGutters>
           <Grid container spacing={2} columns={32}>
             <Grid item xs={18} style={{ margin: '10px 0px 10px 30px' }}>

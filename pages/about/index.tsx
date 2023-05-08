@@ -1,8 +1,10 @@
 import React from 'react';
 import { Heading } from '../../components';
-import { Container, List, ListItem, ListItemIcon, Typography } from '@mui/material';
+import { Container, List, ListItem, ListItemIcon } from '@mui/material';
 import { Text } from '../../components';
-import { Email, Instagram, YouTube } from '@mui/icons-material';
+import Email from '@mui/icons-material/Email';
+import YouTube from '@mui/icons-material/YouTube';
+import Instagram from '@mui/icons-material/Instagram';
 import Image from 'next/image';
 
 const About = () => {
