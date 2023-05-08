@@ -8,6 +8,7 @@
 - [ ] Jest unit tests
 - [ ] Image in about page
 - [ ] Use next/image with fixed width and height
+- [ ] Move fully to tailwind.css
 
 ## Tech Stack
 
