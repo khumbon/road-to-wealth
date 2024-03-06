@@ -9,68 +9,58 @@ ogImage:
   url: '/assets/blog/employee-stock-purchase-plans/espp-cover.png'
 ---
 
-Employee Stock Purchase Plans (ESPP) for Beginners. Should I start?
-Hi guys, my name is Khumbo from Road to Wealth and I’m here to help you find your path through financial literacy.
-You’re probably watching this video because your company has said you have an ESPP benefit or you’ve been badgered by emails saying it’s time to enrol, you’re offering period is coming to an end.
-I’m here to demystify the ESPP and hopefully help you figure out if it’s best for you.
-So firstly, what is an Employee Stock Purchase Plan or ESPP?
-• An ESPP is a program in which employees can purchase company stock at a discounted price.
-• Employees contribute through payroll deductions, over a period usually about 6 or 12 months which build until the purchase date.
-• The discount can be as much as 15% of the closing price of the shares.
-This means that in some cases you would be buying the shares at 85% of either the fair market value of the stock on your enrolment date or purchase date. Whichever is lower.
+# Employee Stock Purchase Plans (ESPP) for Beginners: Should I Start?
 
-Typically used in American companies as an additional employee benefit.
-So just to begin we’ll need some quick definitions and important dates to remember:
-Offering or enrolment date – this is usually a deadline for opting into the program. This marks the beginning of the offering period.
-Exercise or purchase date – the date when the company buys the shares on your behalf. Ending one period of employee contributions.
-Offering period – a period of time, usually 24 months from the offering date when the where each month you contribute money from your salary. During this time there may be multiple purchase/exercise periods. This is the longest you can buy at a fixed price before it is reset
-FMW (Fair Market Value) - the price of the stock on the open market
-How do they work?
-If you decide to enrol in your company’s ESPP in March and your offering date is the 1st of April. Every month, starting in April, your company will collect a portion of your paycheck. This is either a fixed amount or a percentage of your salary, usually around 0 to 15%. They do this for however long your exercise periods, let’s use 6 months.
-After 6 months on the 30th of September, you would have your purchase date.
-Your company would determine whether the stock price was lower on your offering date or on your offering date or on your purchase date. From the lower of the two they will subtract a discount, usually about 15% and use your money pot to buy the stocks at this new lower price.
-So as long as you stay on the plan and keep contributing, your purchase price can be locked in for as long as the offering period is, in our case 2 years.
-When can I reap the rewards?
-You can sell the shares immediately, essentially anything after the purchase date will be regular price fluctuations
+Hello, everyone! I'm Khumbo from Road to Wealth, and today, we're diving into the world of Employee Stock Purchase Plans (ESPPs). If your company has mentioned ESPP benefits or you've received emails nudging you to enroll, you're in the right place. Let's demystify the ESPP together and help you determine if it's the right move for you.
 
-What is the risks of an ESPP?
-The benefits of ESPPs are pretty obvious but let’s discuss a few of the risks.
-What if the share price goes down?
-If the share price on the purchase date is lower that than the share price on the offering date then the then your price is reset and your new purchase price is 85% of the new price.
-What if I decide to pull out?
-Outside, after the purchase date the risks are pretty much the same as the rest of the stock market. There will be price fluctuations and your capital will be at risk. You may choose to keep your shares although that may limit your diversification thus, increasing your risk or you may sell your shares. The decision is yours.
+## Understanding Employee Stock Purchase Plans
 
-How about taxes?
-The taxation rules regarding ESPPs are complex. In general, qualifying dispositions are taxed during the year of the sale of stock. Any discount offered to the original stock price is taxed as ordinary income, while the remaining gain is taxed as a long-term capital gain. Unqualified dispositions can result in the entire gain being taxed at ordinary income tax rates.
-Generally, you would have two taxes applied to your gain. The gain that is a result of the up to 15% discount will be taxed as regular income. This tax will be applied on the difference between the fair market value on the purchase date and your actual purchase price including any discount. Any gain after this will be taxed as regular capital gain.
-Transferring Back
-Feel free to let me know if you have any other transferring solutions
+An **Employee Stock Purchase Plan (ESPP)** is a program that allows employees to purchase company stock at a discounted price. Here's a quick rundown:
 
-Example – Google.
-“If your situation has all of:
+- **Discounted Stock Purchase:** Employees contribute through payroll deductions over a period, usually 6 to 12 months, building until the purchase date.
+  
+- **Discount Rate:** The discount can be as much as 15% of the closing price of the shares, offering a significant benefit.
 
-• A discount on the purchase price (even better if the plan has some sort of lookback [may not have this]) or some sort of "match" (they put in a dollar amount to buy shares based on what you contribute)
-• Has no holding period after purchase (which would introduce market risk on the value of the shares you buy)
-• Your budget can absorb the reduced cashflow during your contribution period without eating into other financial obligations
+Primarily used in American companies, ESPPs are an additional employee benefit. Before we proceed, let's establish some key definitions and important dates:
 
-Then yes, an ESPP is pretty much guaranteed free money. Sounds like your plan has a 15% discount, which means that for every $1000 you put into the plan, you'll cash out about $1176; minus any transaction fees when selling. Selling immediately means that extra $176 gets taxed at your top tax bracket (both federal and state), but you're still coming out ahead around $125-$150 depending on your tax situation.
+- **Offering or Enrollment Date:** Deadline for opting into the program, marking the beginning of the offering period.
+  
+- **Exercise or Purchase Date:** When the company purchases shares on behalf of employees, concluding one period of contributions.
+  
+- **Offering Period:** Typically 24 months from the offering date, during which employees contribute money monthly.
 
-At an old job, I churned money through the ESPP and sent the resulting cash into our IRAs. I looked at it as roughly a 15% "match" to those IRA contributions funded by my employer.
+Now, let's explore how ESPPs work.
 
-There is one big catch to watch out for around taxes with an ESPP:
+## How ESPPs Work
 
-When you do an immediate sale, the "discount" counts as compensation to you from your employer and will be reported on your W-2 as part of your income box. However, the forms you get from the brokerage will report your "basis" (what you paid for the shares) as the discounted price. Since the sale price minus the basis is what's used for the short-term capital gains calculations, this means that the discount can end up being double-taxed if you just enter the numbers you're given. You have to do a "basis adjustment" to correct that, which brings the basis up to the actual market value at the time of purchase for purposes of the capital gain tax, since the discount dollars are already included on your W-2.” https://www.reddit.com/r/personalfinance/comments/jepoit/is_an_espp_free_money/
+If you enroll in your company's ESPP, your contributions begin from the offering date. For instance, if your offering date is on the 1st of April and you contribute for 6 months, your purchase date would be on the 30th of September. The company then determines the lower of the stock price on your offering date or purchase date, applying a discount (usually 15%) to determine your purchase price.
 
-With a lookback period, we are always getting a minimum of 15% off the market price at the date of purchase and sometimes more if the stock price has increased from the beginning of the purchase period.
+Stay on the plan, keep contributing, and your purchase price remains fixed for the entire offering period, which is typically 2 years. Now, let's address the timeline for reaping the rewards.
 
-My Approach to ESPPs
-I’ve decided to maximise my ESPP mostly because it has a guaranteed return whether the stock price goes up or down. I’ve done this for a year and I’ve amazing returns, even though my first purchase date was just after the crash in March.
-As to whether I’ll be keeping the shares in my company.
+## Reaping the Rewards
 
-If the price is reset before an offering period ends, because the share price dips below the offering price then a new offering period starts with the lower price
+You can sell the shares immediately after the purchase date, subject to regular price fluctuations. But, as with any investment, there are risks to consider.
 
-\*\* This was around the covid triggered market crash in 2020
+## Risks of ESPPs
 
-I use Wise previously known as Transferwise to transfer the money from my brokerage. It’s pretty reliable and is the cheapest way that I’ve found to transfer USD to Pounds. It also allows me to deposit the money directly into my bank account.
+While the benefits are evident, here are a few risks:
 
-### Have a look at my description for a referral code that gives you a free international transfer of up to £500. When you transfer more than £200.
+- **Share Price Fluctuations:** If the share price on the purchase date is lower than the offering date, your new purchase price is adjusted accordingly.
+
+- **Decision to Pull Out:** Post-purchase date, risks align with general stock market fluctuations. You may choose to keep or sell your shares, impacting your risk and diversification.
+
+## Tax Implications
+
+ESPP taxation rules are complex. Qualifying dispositions are taxed during the stock sale year, with the discount taxed as ordinary income. Unqualified dispositions may result in ordinary income tax rates being applied to the entire gain.
+
+## Transferring Back and an Example with Google
+
+For a clearer perspective, consider the example of Google, where a 15% discount on the purchase price can be a significant advantage. Immediate selling can result in a gain, but taxes apply to the discounted amount.
+
+## My Approach to ESPPs
+
+Personally, I've chosen to maximize my ESPP because immediate selling guarantees a return, irrespective of market fluctuations. Even after my first purchase post-March crash, I've experienced impressive returns.
+
+In conclusion, ESPPs can be a valuable addition to your financial strategy, but it's crucial to weigh the risks and understand the tax implications. Remember, financial decisions should align with your individual goals and risk tolerance.
+
+Feel free to share your thoughts and experiences with ESPPs in the comments below!
