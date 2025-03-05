@@ -9,6 +9,7 @@ import Link from 'next/link';
 import { screenSizes } from '../../constants';
 import { CollapsedMenu } from '../CollapsedMenu';
 import { ExpandedMenu } from '../ExpandedMenu';
+import { colours } from '../../constants/colours';
 
 const pages = ['About', 'Blog', 'Videos', 'Downloads'];
 
@@ -27,7 +28,14 @@ export const ResponsiveNavBar = () => {
     <Box sx={{ flexGrow: 1 }} className="bg-brand dark:bg-brand">
       <AppBar position="static" className="bg-brand">
         <Toolbar disableGutters>
-          <Grid container spacing={2} columns={32}>
+          <Grid
+            container
+            spacing={2}
+            columns={32}
+            sx={{
+              backgroundColor: colours.brand,
+            }}
+          >
             <Grid item xs={18} style={{ margin: '10px 0px 10px 30px' }}>
               <Link href="/">
                 <Image src={Name.src} width="525" height="80" alt="Road to Wealth Logo" />
