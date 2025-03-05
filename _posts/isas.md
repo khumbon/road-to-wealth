@@ -2,9 +2,9 @@
 title: 'UK Individual Savings Accounts (ISAs)'
 excerpt: 'You're probably reading this because you've heard about ISAs but aren't quite sure what they are, or maybe you've been getting notifications from your bank about using your ISA allowance before the tax year ends. I'm here to demystify ISAs and hopefully help you figure out if they're right for you.'
 coverImage: '/assets/blog/uk-individual-savings-accounts/isa-cover.png'
-date: '2025-03-05T10:15:32.147Z'
+date: '2022-03-05T10:15:32.147Z'
 ogImage:
-  url: '/assets/blog/uk-individual-savings-accounts/isa-cover.png'
+  url: '/assets/blog/isas/isa-cover.png'
 ---
 
 # UK Individual Savings Accounts (ISAs) Explained: Should I Open One?
