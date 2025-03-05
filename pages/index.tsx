@@ -6,7 +6,6 @@ import { Container, Grid, useMediaQuery } from '@mui/material';
 import { videoIds } from '../copy/videos';
 import { Download, Heading, YoutubeVideos } from '../components';
 import { Button } from '@mui/material';
-import { useRouter } from 'next/router';
 import { screenSizes } from '../constants';
 import { downloads } from '../copy/downloads';
 
@@ -18,13 +17,8 @@ export default function Index({ allPosts }: Props) {
   const samplePosts = allPosts.slice(0, 2);
   const sampleVideoIds = videoIds.slice(0, 2);
   const sampleDownloads = downloads.slice(0, 2);
-  const router = useRouter();
-
-  const routerClick = (event) => {
-    router.push(`/${event.target.innerText.toLowerCase()}`);
-  };
-
   const isDesktop = useMediaQuery(`(min-width: ${screenSizes.smallDesktop}px)`);
+
   return (
     <>
       <Container sx={{ marginTop: 6 }}>{samplePosts.length > 0 ? <MoreStories posts={samplePosts} /> : null}</Container>

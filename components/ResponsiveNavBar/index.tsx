@@ -9,7 +9,6 @@ import Link from 'next/link';
 import { screenSizes } from '../../constants';
 import { CollapsedMenu } from '../CollapsedMenu';
 import { ExpandedMenu } from '../ExpandedMenu';
-import { colours } from '../../constants/colours';
 
 const pages = ['About', 'Blog', 'Videos', 'Downloads'];
 
