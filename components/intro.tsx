@@ -10,8 +10,14 @@ import { colours } from '../constants/colours';
 const Intro = () => {
   //** <div style={{width: '1920px', height: '1000px', backgroundImage: 'url(/assets/blog/images/Banner2.png)', backgroundRepeat: 'no-repeat', clip:'rect(350px,1920px,952px,0px)', position:'absolute'}}/>  */
   return (
-    <div style={{ background: colours.brand }}>
-      <Grid container spacing={2}>
+    <div>
+      <Grid
+        container
+        spacing={2}
+        sx={{
+          backgroundColor: colours.brand,
+        }}
+      >
         <Grid item xs={8}>
           <Image
             src={Name.src}
